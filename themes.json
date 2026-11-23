@@ -1,0 +1,125 @@
+{
+  "manifestVersion": 1,
+  "replaces": [
+    "blog",
+    "gallery",
+    "links",
+    "test-page",
+    "templates",
+    "skeletons",
+    "index.html",
+    "images/blog",
+    "images/gallery",
+    "images/create-vanilla-gorilla-screenshot.png"
+  ],
+  "themes": [
+    {
+      "name": "broadsheet",
+      "title": "Broadsheet",
+      "type": "blog",
+      "description": "Newspaper editorial: newsprint grey, ink black, column rules and one press-red accent.",
+      "path": "themes/broadsheet",
+      "preview": "previews/broadsheet.jpg",
+      "minTemplateVersion": 3
+    },
+    {
+      "name": "margin",
+      "title": "Margin",
+      "type": "blog",
+      "description": "A quiet essay blog: one narrow column, dates hung in the left margin, one ink-green accent.",
+      "path": "themes/margin",
+      "preview": "previews/margin.jpg",
+      "minTemplateVersion": 3
+    },
+    {
+      "name": "night-shift",
+      "title": "Night Shift",
+      "type": "blog",
+      "description": "A dark developer blog: deep indigo, amber cursor accent, fixed sidebar and prominent code.",
+      "path": "themes/night-shift",
+      "preview": "previews/night-shift.jpg",
+      "minTemplateVersion": 3
+    },
+    {
+      "name": "field-notes",
+      "title": "Field Notes",
+      "type": "blog",
+      "description": "A travel and nature journal: map-paper tones, forest green, taped photographs and handwritten captions.",
+      "path": "themes/field-notes",
+      "preview": "previews/field-notes.jpg",
+      "minTemplateVersion": 3
+    },
+    {
+      "name": "zine",
+      "title": "Zine",
+      "type": "blog",
+      "description": "Loud and photocopied: sun yellow, thick black outlines, hard offset shadows and sticker labels.",
+      "path": "themes/zine",
+      "preview": "previews/zine.jpg",
+      "minTemplateVersion": 3
+    },
+    {
+      "name": "atelier",
+      "title": "Atelier",
+      "type": "blog",
+      "description": "A high-contrast magazine: bone white and true black, very large Bodoni italics, hairlines and one oxblood accent.",
+      "path": "themes/atelier",
+      "preview": "previews/atelier.jpg",
+      "minTemplateVersion": 3
+    },
+    {
+      "name": "maison",
+      "title": "Maison",
+      "type": "salon",
+      "description": "Monochrome luxury salon: warm white, black bands, light Cormorant display type and a brass accent.",
+      "path": "themes/maison",
+      "preview": "previews/maison.jpg",
+      "minTemplateVersion": 3
+    },
+    {
+      "name": "lived-in",
+      "title": "Lived-In",
+      "type": "salon",
+      "description": "Boho salon: sand and terracotta, arched photographs, soft serif headings. Closest in spirit to hartisan.hair.",
+      "path": "themes/lived-in",
+      "preview": "previews/lived-in.jpg",
+      "minTemplateVersion": 3
+    },
+    {
+      "name": "barber-blade",
+      "title": "Barber & Blade",
+      "type": "salon",
+      "description": "Classic barbershop: bottle green, cream and brass, slab headings and a barber-pole stripe.",
+      "path": "themes/barber-blade",
+      "preview": "previews/barber-blade.jpg",
+      "minTemplateVersion": 3
+    },
+    {
+      "name": "bloom",
+      "title": "Bloom",
+      "type": "salon",
+      "description": "A friendly neighbourhood salon: blush, lilac and mint, rounded type, soft blobs and pill buttons.",
+      "path": "themes/bloom",
+      "preview": "previews/bloom.jpg",
+      "minTemplateVersion": 3
+    },
+    {
+      "name": "chroma",
+      "title": "Chroma",
+      "type": "salon",
+      "description": "A colour-specialist studio after dark: aubergine black, a magenta-to-tangerine gradient, wide Syne headings.",
+      "path": "themes/chroma",
+      "preview": "previews/chroma.jpg",
+      "minTemplateVersion": 3
+    },
+    {
+      "name": "still",
+      "title": "Still",
+      "type": "salon",
+      "description": "Scandinavian calm: pale stone, sage and oak, light grotesque type, generous space and small framed images.",
+      "path": "themes/still",
+      "preview": "previews/still.jpg",
+      "minTemplateVersion": 3
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Zine",
+  "type": "blog",
+  "description": "Loud and photocopied: sun yellow, thick black outlines, hard offset shadows and sticker labels.",
+  "minTemplateVersion": 3,
+  "fonts": "https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap",
+  "tokens": {
+    "SITE_NAME": "Loud Margins",
+    "TAGLINE": "A blog with opinions about small things",
+    "FOOTER_BLURB": "Made by hand. Photocopy freely.",
+    "ARCHIVE_INTRO": "The whole pile, newest on top.",
+    "HOME_HEADLINE": "Strong opinions about notebooks, trains and cardboard boxes",
+    "HOME_LEDE": "Nobody asked. A new one lands twice a month anyway.",
+    "ABOUT_BLURB": "Loud Margins is one person with a stapler and too many opinions. It started as a paper zine left in laundrettes."
+  }
+}

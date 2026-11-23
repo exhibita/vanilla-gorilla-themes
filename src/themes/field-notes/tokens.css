@@ -1,0 +1,38 @@
+:root {
+  /* Colour */
+  --bg-primary: #f2ead6;        /* map paper */
+  --bg-secondary: #e8dcc0;
+  --surface: #fbf7ea;           /* index card */
+  --surface-border: #d6c7a3;
+  --text-main: #26301f;         /* dark moss */
+  --text-muted: #6a6a52;
+  --text-light: #fbf7ea;
+  --color-primary: #2f5a3c;     /* forest green */
+  --color-primary-hover: #1e3f29;
+  --color-secondary: #c2552d;   /* trail-marker orange */
+  --color-accent: #e2b565;      /* mustard */
+  --lightbox-bg: rgba(30, 40, 26, .95);
+
+  /* Type */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Source Serif 4', Georgia, serif;
+  --font-serif: 'Source Serif 4', Georgia, serif;
+  --font-sans: 'Karla', system-ui, sans-serif;
+  --font-hand: 'Caveat', cursive;
+  --font-mono: 'JetBrains Mono', Consolas, monospace;
+  --text-base: 1.125rem;
+  --leading: 1.7;
+  --measure: 38rem;
+
+  /* Layout */
+  --max-width: 1040px;
+  --gutter: 2rem;
+  --space-main: 3rem;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+  --transition: all .2s ease;
+  --shadow-sm: 0 1px 2px rgba(38, 48, 31, .12);
+  --shadow-md: 0 3px 0 rgba(38, 48, 31, .08), 0 10px 22px rgba(38, 48, 31, .12);
+  --shadow-lg: 0 18px 40px rgba(38, 48, 31, .22);
+}

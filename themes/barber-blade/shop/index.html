@@ -1,0 +1,37 @@
+<!--#include file="templates/header.html" -->
+
+<header class="page-header">
+    <h1 class="page-title">Shop</h1>
+    <p class="page-intro">The products on our shelf, for your bathroom. Collect your order at the shop.</p>
+</header>
+
+<!--
+    One product-card for each product.
+    The button needs data-id (unique), data-name, data-price (a number, no currency sign) and data-image.
+    For a product that is not for sale yet, replace the button with: <p class="product-soon">Coming soon</p>
+-->
+<div class="product-grid">
+    <article class="product-card" data-product-id="hydrating-wash">
+        <img class="product-img" src="./images/product-1.svg" alt="A bottle of hydrating wash" width="900" height="900" loading="lazy">
+        <h2 class="product-title">Hydrating Wash</h2>
+        <p class="product-desc">A sulphate-free shampoo that keeps colour bright and ends soft. 250 ml.</p>
+        <p class="product-price">$28.00</p>
+        <button class="btn btn-primary shop-add-btn" type="button" data-add-to-cart data-id="hydrating-wash" data-name="Hydrating Wash" data-price="28" data-image="./images/product-1.svg">Add to bag</button>
+    </article>
+    <article class="product-card" data-product-id="repair-mask">
+        <img class="product-img" src="./images/product-2.svg" alt="A jar of repair mask" width="900" height="900" loading="lazy">
+        <h2 class="product-title">Weekly Repair Mask</h2>
+        <p class="product-desc">Ten minutes once a week to restore strength after heat and sun. 200 ml.</p>
+        <p class="product-price">$34.00</p>
+        <button class="btn btn-primary shop-add-btn" type="button" data-add-to-cart data-id="repair-mask" data-name="Weekly Repair Mask" data-price="34" data-image="./images/product-2.svg">Add to bag</button>
+    </article>
+    <article class="product-card" data-product-id="finishing-oil">
+        <img class="product-img" src="./images/product-3.svg" alt="A bottle of finishing oil" width="900" height="900" loading="lazy">
+        <h2 class="product-title">Finishing Oil</h2>
+        <p class="product-desc">Two drops through the ends for shine with no weight. 50 ml.</p>
+        <p class="product-price">$22.00</p>
+        <p class="product-soon">Coming soon</p>
+    </article>
+</div>
+
+<!--#include file="templates/footer.html" -->

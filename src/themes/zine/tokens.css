@@ -1,0 +1,38 @@
+:root {
+  /* Colour */
+  --bg-primary: #ffe14a;        /* sun yellow */
+  --bg-secondary: #fff3a8;
+  --surface: #ffffff;
+  --surface-border: #111111;
+  --text-main: #111111;
+  --text-muted: #3b3b3b;
+  --text-light: #ffffff;
+  --color-primary: #2b4bff;     /* photocopier blue */
+  --color-primary-hover: #111111;
+  --color-secondary: #ff5fa2;   /* sticker pink */
+  --color-accent: #ff5fa2;
+  --lightbox-bg: rgba(43, 75, 255, .96);
+
+  /* Type */
+  --font-display: 'Archivo Black', Impact, sans-serif;
+  --font-body: 'Space Grotesk', system-ui, sans-serif;
+  --font-serif: 'Space Grotesk', system-ui, sans-serif;
+  --font-sans: 'Space Grotesk', system-ui, sans-serif;
+  --font-mono: 'Space Mono', Consolas, monospace;
+  --text-base: 1.125rem;
+  --leading: 1.6;
+  --measure: 40rem;
+
+  /* Layout */
+  --max-width: 1120px;
+  --gutter: 1.75rem;
+  --space-main: 3rem;
+  --line: 3px solid #111111;
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --transition: all .12s ease;
+  --shadow-sm: 4px 4px 0 #111111;
+  --shadow-md: 7px 7px 0 #111111;
+  --shadow-lg: 12px 12px 0 #111111;
+}

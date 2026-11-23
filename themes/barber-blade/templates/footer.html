@@ -1,0 +1,59 @@
+            </div>
+        </main>
+        <footer class="site-footer">
+            <div class="container">
+                <div class="footer-about">
+                    <p class="footer-title">Barber & Blade</p>
+                    <p>A neighbourhood barbershop. Walk-ins welcome before noon.</p>
+                </div>
+                <div class="footer-visit">
+                    <p class="footer-heading">Visit</p>
+                    <p>12 Example Street<br>Riverside, CA 92501</p>
+                    <p>Monday to Saturday, 8 am to 7 pm</p>
+                </div>
+                <div class="footer-contact">
+                    <p class="footer-heading">Contact</p>
+                    <p><a href="tel:+15550100199">(555) 010-0199</a><br><a href="mailto:hello@example.com">hello@example.com</a></p>
+                    <p><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a><br><a href="https://www.pinterest.com/" target="_blank" rel="noopener">Pinterest</a></p>
+                </div>
+                <nav class="footer-nav" aria-label="Footer">
+                    <p class="footer-heading">Explore</p>
+                    <ul>
+                        <li><a href="./services/">Services and prices</a></li>
+                        <li><a href="./booking/">Book a visit</a></li>
+                        <li><a href="./gallery/">Gallery</a></li>
+                        <li><a href="./shop/">Shop</a></li>
+                        <li><a href="./blog/">Journal</a></li>
+                    </ul>
+                </nav>
+                <div class="footer-info">
+                    <p>&copy; <script>document.write(new Date().getFullYear());</script> Barber & Blade. All rights reserved.</p>
+                    <p><a href="./privacy/">Privacy Policy</a> <a href="./terms-of-service/">Terms of Service</a></p>
+                    <p class="build-credit">Built with <a href="https://github.com/exhibita/vanilla-gorilla" target="_blank" rel="noopener">Vanilla Gorilla</a>.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!--
+        Shopping bag. js/cart.js fills it and keeps it in the browser (localStorage).
+        Checkout setting (set one):
+          data-checkout-url   = the address of your payment or order page. The button goes there.
+          data-checkout-email = the address that receives the order as an email. Used when data-checkout-url is empty.
+    -->
+    <dialog class="cart-drawer" id="cart-drawer" aria-labelledby="cart-title" data-currency="USD" data-checkout-url="" data-checkout-email="hello@example.com">
+        <div class="cart-header">
+            <h2 id="cart-title">Your bag</h2>
+            <button class="cart-close" type="button" data-cart-close aria-label="Close bag">&times;</button>
+        </div>
+        <p class="cart-empty" data-cart-empty>Your bag is empty. <a href="./shop/">Visit the shop</a> to add something.</p>
+        <ul class="cart-items" data-cart-items></ul>
+        <div class="cart-footer" data-cart-footer hidden>
+            <p class="cart-subtotal"><span>Subtotal</span> <strong data-cart-subtotal></strong></p>
+            <button class="btn btn-primary" type="button" data-cart-checkout>Send order request</button>
+            <p class="cart-note" data-cart-note>We confirm your order and arrange payment and pickup by email.</p>
+        </div>
+    </dialog>
+    <script src="./js/cart.js" defer></script>
+</body>
+</html>

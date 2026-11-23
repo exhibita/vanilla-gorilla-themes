@@ -1,0 +1,16 @@
+{
+  "title": "Margin",
+  "type": "blog",
+  "description": "A quiet essay blog: one narrow column, dates hung in the left margin, one ink-green accent.",
+  "minTemplateVersion": 3,
+  "fonts": "https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap",
+  "tokens": {
+    "SITE_NAME": "Wren Calloway",
+    "TAGLINE": "Notes, mostly short",
+    "FOOTER_BLURB": "Written slowly and published when ready.",
+    "ARCHIVE_INTRO": "All posts, newest first.",
+    "HOME_HEADLINE": "I write short essays about paying attention.",
+    "HOME_LEDE": "Notebooks, trains, boxes, tools. One or two a month, never longer than a cup of tea.",
+    "ABOUT_BLURB": "I am a writer and occasional carpenter. This site is where I keep the things I want to remember having thought."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Broadsheet",
+  "type": "blog",
+  "description": "Newspaper editorial: newsprint grey, ink black, column rules and one press-red accent.",
+  "minTemplateVersion": 3,
+  "fonts": "https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,700;0,6..72,800;1,6..72,400;1,6..72,500&family=Libre+Franklin:wght@400;600;700&family=JetBrains+Mono:wght@400&display=swap",
+  "tokens": {
+    "SITE_NAME": "The Evening Ledger",
+    "TAGLINE": "Essays on ordinary things, filed twice a month",
+    "FOOTER_BLURB": "An independent blog. No advertising, no tracking, no comment section.",
+    "ARCHIVE_INTRO": "Every essay, newest first.",
+    "HOME_HEADLINE": "Ordinary things, looked at for longer than is sensible",
+    "HOME_LEDE": "Notebooks, slow trains, cardboard boxes and a neighbour's drill. A new essay arrives every other Monday.",
+    "ABOUT_BLURB": "The Evening Ledger is written by one person at a kitchen table, mostly after nine at night. It covers the small practical habits that make a week go better."
+  }
+}

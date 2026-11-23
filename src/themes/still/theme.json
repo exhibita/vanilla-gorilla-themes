@@ -1,0 +1,18 @@
+{
+  "title": "Still",
+  "type": "salon",
+  "description": "Scandinavian calm: pale stone, sage and oak, light grotesque type, generous space and small framed images.",
+  "minTemplateVersion": 3,
+  "fonts": "https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400&display=swap",
+  "tokens": {
+    "SITE_NAME": "still",
+    "STYLIST": "Ingrid Solberg, founder",
+    "TAGLINE": "A quiet hair studio",
+    "HERO_HEADLINE": "An hour of quiet, and a better haircut",
+    "HERO_LEDE": "Natural colour, considered cuts and scalp care, in a studio with no music and no mirrors until the end.",
+    "ABOUT_HEADING": "Less noise, more care",
+    "ABOUT_TEXT": "Still is a two-chair studio that uses plant-based colour and unhurried appointments. You can talk, or not. Both are welcome.",
+    "QUOTE": "Healthy hair needs very little. Mostly time.",
+    "FOOTER_BLURB": "A quiet studio for natural colour, cuts and scalp care."
+  }
+}

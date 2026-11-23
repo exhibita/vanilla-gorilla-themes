@@ -1,0 +1,38 @@
+:root {
+  /* Colour */
+  --bg-primary: #f4f1ec;        /* bone */
+  --bg-secondary: #e9e4dc;
+  --surface: #f4f1ec;
+  --surface-border: #000000;
+  --text-main: #000000;
+  --text-muted: #5a544e;
+  --text-light: #f4f1ec;
+  --color-primary: #000000;
+  --color-primary-hover: #6d1f2a;
+  --color-secondary: #6d1f2a;   /* oxblood */
+  --color-accent: #6d1f2a;
+  --hairline: 1px solid #000000;
+  --lightbox-bg: rgba(0, 0, 0, .97);
+
+  /* Type */
+  --font-display: 'Bodoni Moda', 'Didot', serif;
+  --font-body: 'Jost', system-ui, sans-serif;
+  --font-serif: 'Bodoni Moda', 'Didot', serif;
+  --font-sans: 'Jost', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', Consolas, monospace;
+  --text-base: 1.125rem;
+  --leading: 1.7;
+  --measure: 36rem;
+
+  /* Layout */
+  --max-width: 1320px;
+  --gutter: 2.5rem;
+  --space-main: 0rem;
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --transition: all .25s ease;
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: none;
+}

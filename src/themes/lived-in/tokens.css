@@ -1,0 +1,39 @@
+:root {
+  /* Colour */
+  --bg-primary: #f4ecdf;        /* sand */
+  --bg-secondary: #e9dbc5;      /* dune */
+  --surface: #fbf6ee;
+  --surface-border: #dcc9ab;
+  --text-main: #3b2a20;         /* walnut */
+  --text-muted: #77614f;
+  --text-light: #fbf6ee;
+  --color-primary: #a4502f;     /* terracotta */
+  --color-primary-hover: #823b1f;
+  --color-secondary: #62663f;   /* olive */
+  --color-accent: #d9a05b;      /* honey */
+  --lightbox-bg: rgba(46, 31, 22, .95);
+
+  /* Type */
+  --font-display: 'Young Serif', Georgia, serif;
+  --font-body: 'Nunito Sans', system-ui, sans-serif;
+  --font-serif: 'Young Serif', Georgia, serif;
+  --font-sans: 'Nunito Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', Consolas, monospace;
+  --text-base: 1.0625rem;
+  --leading: 1.7;
+  --measure: 38rem;
+
+  /* Layout */
+  --max-width: 1160px;
+  --gutter: 2rem;
+  --space-main: 4rem;
+  --band-space: clamp(3.5rem, 8vw, 6.5rem);
+  --radius-sm: 8px;
+  --radius-md: 18px;
+  --radius-lg: 32px;
+  --arch: 999px 999px var(--radius-md) var(--radius-md);
+  --transition: all .2s ease;
+  --shadow-sm: 0 2px 6px rgba(59, 42, 32, .08);
+  --shadow-md: 0 12px 30px rgba(59, 42, 32, .12);
+  --shadow-lg: 0 24px 50px rgba(59, 42, 32, .2);
+}

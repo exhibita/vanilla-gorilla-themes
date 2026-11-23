@@ -1,0 +1,18 @@
+{
+  "title": "Maison",
+  "type": "salon",
+  "description": "Monochrome luxury salon: warm white, black bands, light Cormorant display type and a brass accent.",
+  "minTemplateVersion": 3,
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap",
+  "tokens": {
+    "SITE_NAME": "Maison Vale",
+    "STYLIST": "Elena Vale, founder",
+    "TAGLINE": "Hair atelier, by appointment",
+    "HERO_HEADLINE": "Precision cutting and colour, without the theatre",
+    "HERO_LEDE": "One client at a time, in a quiet room, for as long as the work needs.",
+    "ABOUT_HEADING": "A private atelier with one chair",
+    "ABOUT_TEXT": "Maison Vale opened in 2019 with one idea: remove everything that does not improve the haircut. No double bookings, no background noise, and no product you did not ask about.",
+    "QUOTE": "A good cut is the one you forget about for three months.",
+    "FOOTER_BLURB": "A private hair atelier. One chair, one client, by appointment."
+  }
+}

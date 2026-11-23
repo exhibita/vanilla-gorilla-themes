@@ -1,0 +1,38 @@
+:root {
+  /* Colour */
+  --bg-primary: #f5f3ef;        /* warm white */
+  --bg-secondary: #e9e5de;      /* stone */
+  --surface: #fbfaf8;
+  --surface-border: #cfc8bc;
+  --text-main: #14120f;         /* ink */
+  --text-muted: #6a635a;
+  --text-light: #f5f3ef;
+  --color-primary: #14120f;
+  --color-primary-hover: #8a6b3d;
+  --color-secondary: #8a6b3d;   /* brass, dark enough for text */
+  --color-accent: #b89461;      /* brass, for rules and focus */
+  --lightbox-bg: rgba(12, 11, 9, .97);
+
+  /* Type */
+  --font-display: 'Cormorant Garamond', 'Times New Roman', serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --font-serif: 'Cormorant Garamond', 'Times New Roman', serif;
+  --font-sans: 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', Consolas, monospace;
+  --text-base: 1.0625rem;
+  --leading: 1.7;
+  --measure: 38rem;
+
+  /* Layout */
+  --max-width: 1200px;
+  --gutter: 2rem;
+  --space-main: 5rem;
+  --band-space: clamp(4rem, 9vw, 8rem);
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --transition: all .25s ease;
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: none;
+}

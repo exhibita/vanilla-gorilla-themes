@@ -1,0 +1,18 @@
+{
+  "title": "Lived-In",
+  "type": "salon",
+  "description": "Boho salon: sand and terracotta, arched photographs, soft serif headings. Closest in spirit to hartisan.hair.",
+  "minTemplateVersion": 3,
+  "fonts": "https://fonts.googleapis.com/css2?family=Young+Serif&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,600;0,6..12,700;1,6..12,400&family=JetBrains+Mono:wght@400&display=swap",
+  "tokens": {
+    "SITE_NAME": "Sun & Sage",
+    "STYLIST": "Marisol, owner and colourist",
+    "TAGLINE": "Lived-in colour and easy cuts",
+    "HERO_HEADLINE": "Hair that looks better the longer you wear it",
+    "HERO_LEDE": "Soft, sun-touched colour and cuts that grow out well. Made for people with better things to do than style their hair.",
+    "ABOUT_HEADING": "Slow appointments, easy hair",
+    "ABOUT_TEXT": "I work from a small studio with plants in the window and one client in the chair. We talk first, and I never hurry a colour.",
+    "QUOTE": "If you need me again in four weeks, I did it wrong.",
+    "FOOTER_BLURB": "A one-chair studio for lived-in colour and low-effort cuts."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Night Shift",
+  "type": "blog",
+  "description": "A dark developer blog: deep indigo, amber cursor accent, fixed sidebar and prominent code.",
+  "minTemplateVersion": 3,
+  "fonts": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap",
+  "tokens": {
+    "SITE_NAME": "nightshift.log",
+    "TAGLINE": "Notes written after the deploy",
+    "FOOTER_BLURB": "No analytics. No cookies. View source is encouraged.",
+    "ARCHIVE_INTRO": "All entries, newest first.",
+    "HOME_HEADLINE": "Things I worked out late and wrote down before I forgot",
+    "HOME_LEDE": "Short notes on habits, tools and systems. Some are about software. Most are about how to do one thing properly.",
+    "ABOUT_BLURB": "I build internal tools by day and write here at night. Each entry is one idea that survived until morning."
+  }
+}

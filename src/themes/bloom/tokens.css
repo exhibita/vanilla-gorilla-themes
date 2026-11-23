@@ -1,0 +1,41 @@
+:root {
+  /* Colour */
+  --bg-primary: #fff7f4;        /* milk */
+  --bg-secondary: #fde3dd;      /* blush */
+  --surface: #ffffff;
+  --surface-border: #f1d5d9;
+  --text-main: #472a45;         /* plum */
+  --text-muted: #7b6079;
+  --text-light: #ffffff;
+  --color-primary: #c2456b;     /* raspberry */
+  --color-primary-hover: #a23457;
+  --color-secondary: #7a55c4;   /* violet */
+  --color-accent: #f2a65a;      /* apricot */
+  --lilac: #e4dcfa;
+  --mint: #d4f0e2;
+  --lightbox-bg: rgba(71, 42, 69, .94);
+
+  /* Type */
+  --font-display: 'Fredoka', 'Trebuchet MS', sans-serif;
+  --font-body: 'Nunito', system-ui, sans-serif;
+  --font-serif: 'Fredoka', 'Trebuchet MS', sans-serif;
+  --font-sans: 'Nunito', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', Consolas, monospace;
+  --text-base: 1.0938rem;
+  --leading: 1.65;
+  --measure: 38rem;
+
+  /* Layout */
+  --max-width: 1140px;
+  --gutter: 1.75rem;
+  --space-main: 3.5rem;
+  --band-space: clamp(3rem, 7vw, 5.5rem);
+  --radius-sm: 12px;
+  --radius-md: 24px;
+  --radius-lg: 40px;
+  --blob: 62% 38% 46% 54% / 55% 48% 52% 45%;
+  --transition: all .2s ease;
+  --shadow-sm: 0 4px 0 rgba(71, 42, 69, .08);
+  --shadow-md: 0 8px 0 rgba(71, 42, 69, .08);
+  --shadow-lg: 0 20px 40px rgba(71, 42, 69, .18);
+}

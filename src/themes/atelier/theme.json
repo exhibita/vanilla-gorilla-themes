@@ -1,0 +1,16 @@
+{
+  "title": "Atelier",
+  "type": "blog",
+  "description": "A high-contrast magazine: bone white and true black, very large Bodoni italics, hairlines and one oxblood accent.",
+  "minTemplateVersion": 3,
+  "fonts": "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400;1,6..96,500&family=Jost:wght@300;400;500&family=JetBrains+Mono:wght@400&display=swap",
+  "tokens": {
+    "SITE_NAME": "Atelier",
+    "TAGLINE": "A journal of considered things",
+    "FOOTER_BLURB": "Published from a small studio, in no hurry.",
+    "ARCHIVE_INTRO": "The complete journal.",
+    "HOME_HEADLINE": "The quiet luxury of doing one thing properly",
+    "HOME_LEDE": "Essays on objects, habits and the long way round.",
+    "ABOUT_BLURB": "Atelier is a journal about the things worth keeping and the habits worth the effort. It is written by one editor and published when a piece is finished."
+  }
+}

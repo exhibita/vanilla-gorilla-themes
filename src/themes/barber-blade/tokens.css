@@ -1,0 +1,39 @@
+:root {
+  /* Colour */
+  --bg-primary: #efe7d6;        /* cream */
+  --bg-secondary: #e2d7be;
+  --surface: #f7f1e4;
+  --surface-border: #14261f;
+  --text-main: #14261f;         /* near-black green */
+  --text-muted: #4d5a52;
+  --text-light: #efe7d6;
+  --color-primary: #1c4335;     /* bottle green */
+  --color-primary-hover: #7a2a26;
+  --color-secondary: #7a2a26;   /* oxblood */
+  --color-accent: #c39a4a;      /* brass */
+  --pole: repeating-linear-gradient(135deg, #7a2a26 0 14px, #efe7d6 14px 28px, #1c4335 28px 42px, #efe7d6 42px 56px);
+  --lightbox-bg: rgba(15, 36, 28, .97);
+
+  /* Type */
+  --font-display: 'Alfa Slab One', Rockwell, serif;
+  --font-body: 'Bitter', Georgia, serif;
+  --font-serif: 'Bitter', Georgia, serif;
+  --font-sans: 'Oswald', 'Arial Narrow', sans-serif;
+  --font-mono: 'JetBrains Mono', Consolas, monospace;
+  --text-base: 1.0625rem;
+  --leading: 1.65;
+  --measure: 38rem;
+
+  /* Layout */
+  --max-width: 1160px;
+  --gutter: 2rem;
+  --space-main: 4rem;
+  --band-space: clamp(3.5rem, 8vw, 6rem);
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 6px;
+  --transition: all .15s ease;
+  --shadow-sm: 3px 3px 0 #14261f;
+  --shadow-md: 6px 6px 0 #14261f;
+  --shadow-lg: 10px 10px 0 #14261f;
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Bloom",
+  "type": "salon",
+  "description": "A friendly neighbourhood salon: blush, lilac and mint, rounded type, soft blobs and pill buttons.",
+  "minTemplateVersion": 3,
+  "fonts": "https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Nunito:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400&display=swap",
+  "tokens": {
+    "SITE_NAME": "Bloom Hair Studio",
+    "STYLIST": "Priya, studio owner",
+    "TAGLINE": "Your friendly local hair studio",
+    "HERO_HEADLINE": "Good hair days, for the whole family",
+    "HERO_LEDE": "Cuts, colour and first haircuts in a bright studio where nobody minds if you bring the pram.",
+    "ABOUT_HEADING": "Come as you are",
+    "ABOUT_TEXT": "Bloom is a small team of four on the corner of Example Street. We cut toddlers, teenagers, parents and grandparents, often on the same Saturday.",
+    "QUOTE": "The best compliment is a child who asks to come back.",
+    "FOOTER_BLURB": "A family hair studio. Step-free, pram-friendly and open on Saturdays."
+  }
+}

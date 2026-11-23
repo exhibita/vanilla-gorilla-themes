@@ -1,0 +1,39 @@
+:root {
+  /* Colour */
+  --bg-primary: #110c1c;        /* aubergine black */
+  --bg-secondary: #1b1430;
+  --surface: #1b1430;
+  --surface-border: #33274f;
+  --text-main: #f6f1ff;
+  --text-muted: #aca2c6;
+  --text-light: #110c1c;        /* text on the bright buttons */
+  --color-primary: #ff4d94;     /* magenta */
+  --color-primary-hover: #ff8a3c;
+  --color-secondary: #ff8a3c;   /* tangerine */
+  --color-accent: #9a70ff;      /* violet */
+  --spectrum: linear-gradient(100deg, #ff3d8b 0%, #ff8a3c 45%, #ffd23f 70%, #35d6c5 100%);
+  --lightbox-bg: rgba(8, 5, 14, .96);
+
+  /* Type */
+  --font-display: 'Syne', 'Arial Black', sans-serif;
+  --font-body: 'Outfit', system-ui, sans-serif;
+  --font-serif: 'Syne', 'Arial Black', sans-serif;
+  --font-sans: 'Outfit', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', Consolas, monospace;
+  --text-base: 1.0938rem;
+  --leading: 1.65;
+  --measure: 38rem;
+
+  /* Layout */
+  --max-width: 1240px;
+  --gutter: 2rem;
+  --space-main: 4rem;
+  --band-space: clamp(3.5rem, 8vw, 7rem);
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+  --transition: all .2s ease;
+  --shadow-sm: none;
+  --shadow-md: 0 0 40px rgba(255, 61, 139, .25);
+  --shadow-lg: 0 0 80px rgba(154, 112, 255, .35);
+}

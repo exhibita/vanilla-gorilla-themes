@@ -1,0 +1,97 @@
+
+/* Everything hangs from one left edge, set in by the margin column */
+.site-header .container, main > .container, .site-footer .container { padding-left: calc(var(--gutter) + var(--margin-col)); }
+.site-header { padding: 2.5rem 0 0; font-family: var(--font-sans); }
+.site-header .container { display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem 2.5rem; }
+.site-branding { display: flex; align-items: baseline; gap: .9rem; margin-right: auto; }
+.site-title { font-family: var(--font-sans); font-size: 1rem; font-weight: 600; }
+.site-tagline { font-size: .95rem; }
+.main-navigation ul { gap: 1.6rem; }
+.main-navigation a { font-size: .95rem; color: var(--text-muted); }
+.main-navigation a:hover { color: var(--color-primary); }
+
+.home-intro { max-width: var(--measure); margin-bottom: 4.5rem; }
+.home-intro h1 { font-size: clamp(2rem, 4.4vw, 2.9rem); font-weight: 400; line-height: 1.2; letter-spacing: -.015em; margin-bottom: 1.2rem; }
+.home-intro p { color: var(--text-muted); margin: 0; }
+
+.home-grid { max-width: var(--measure); gap: 4rem; }
+.home-grid h2:not(.lead-title), .lead-label { font-family: var(--font-sans); font-size: .9rem; font-weight: 500; color: var(--text-muted); margin-bottom: .9rem; }
+/* Section names sit in the margin on wide screens */
+@media (min-width: 860px) {
+  .home-grid > * { position: relative; }
+  .home-grid h2:not(.lead-title), .lead-label { position: absolute; left: calc(-1 * var(--margin-col)); top: .25rem; width: calc(var(--margin-col) - 1.5rem); margin: 0; }
+}
+.lead-image { display: none; }
+.lead-title { font-size: 1.7rem; font-weight: 500; margin-bottom: .6rem; }
+.lead-title a { color: var(--text-main); }
+.lead-title a:hover { color: var(--color-primary); }
+.lead-summary { margin-bottom: .9rem; color: var(--text-muted); }
+ul.wp-block-latest-posts { margin-bottom: 1.2rem; }
+ul.wp-block-latest-posts li { padding: .3rem 0; }
+ul.wp-block-latest-posts .wp-block-latest-posts__post-title { color: var(--text-main); border-bottom: 1px solid var(--surface-border); }
+ul.wp-block-latest-posts .wp-block-latest-posts__post-title:hover { color: var(--color-primary); border-color: var(--color-primary); }
+.home-about p { margin-bottom: .9rem; }
+.read-more { font-size: .95rem; font-weight: 500; }
+.read-more::after { content: ''; display: inline-block; width: 1.2rem; height: 1px; background: currentColor; margin-left: .5rem; vertical-align: middle; transition: width .15s; }
+.read-more:hover::after { width: 2rem; }
+
+.page-header { max-width: var(--measure); margin-bottom: 3.5rem; }
+.page-title { font-size: 2.4rem; font-weight: 400; letter-spacing: -.015em; margin-bottom: .5rem; }
+
+/* Archive: date in the margin, title and summary in the column */
+.post-list { max-width: var(--measure); }
+.post-list article.post { position: relative; margin-bottom: 2.4rem; }
+.post-list .entry-title { font-size: 1.35rem; font-weight: 500; margin-bottom: .3rem; }
+.post-list .entry-title a { color: var(--text-main); }
+.post-list .entry-title a:hover { color: var(--color-primary); }
+.post-list .entry-summary p { font-size: 1rem; }
+.post-list .entry-meta { margin-bottom: .3rem; }
+
+.post-single { position: relative; }
+.post-single .entry-header { max-width: var(--measure); margin-bottom: 2.5rem; }
+.post-single .entry-title { font-size: clamp(2rem, 4.4vw, 2.75rem); font-weight: 400; line-height: 1.2; letter-spacing: -.015em; }
+.post-single .entry-meta { margin-bottom: .6rem; }
+@media (min-width: 860px) {
+  .post-list .entry-meta, .post-single .entry-meta { position: absolute; left: calc(-1 * var(--margin-col)); top: .4rem; width: calc(var(--margin-col) - 1.5rem); margin: 0; }
+  .post-single .entry-meta { top: .9rem; }
+}
+.entry-content h2 { font-size: 1.4rem; font-weight: 600; }
+.entry-content h3 { font-weight: 600; }
+.entry-content blockquote { padding-left: 1.4rem; border-left: 2px solid var(--color-primary); font-style: italic; color: var(--text-muted); }
+.entry-content img { border-radius: var(--radius-md); }
+.entry-content a { text-decoration-color: var(--surface-border); }
+.entry-content a:hover { text-decoration-color: currentColor; }
+
+.post-navigation, .navigation.paging-navigation { max-width: var(--measure); padding-top: 1.5rem; border-top: 1px solid var(--surface-border); }
+.nav-links a { font-size: 1.05rem; color: var(--text-main); }
+.nav-links a:hover { color: var(--color-primary); }
+
+.gallery-grid { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem; }
+.gallery-item { border: 0; background: none; }
+.gallery-item img { border-radius: var(--radius-md); }
+.gallery-caption { padding: .5rem 0 0; color: var(--text-muted); }
+
+.site-footer { padding: 2rem 0 3.5rem; }
+.site-footer .container { display: grid; gap: 1rem; }
+.site-footer .container > * { max-width: var(--measure); }
+.footer-about { padding-top: 2rem; border-top: 1px solid var(--surface-border); }
+.footer-title { font-family: var(--font-sans); font-weight: 600; }
+.footer-nav ul { gap: .3rem 1.4rem; }
+.footer-nav a, .footer-info a { color: var(--text-muted); text-decoration: underline; text-decoration-color: var(--surface-border); text-underline-offset: .2em; }
+.footer-nav a:hover, .footer-info a:hover { color: var(--color-primary); }
+.footer-info { font-size: .85rem; }
+
+/* Post image and badge */
+.post-list article.has-post-thumbnail { display: grid; grid-template-columns: minmax(0, 1fr) 5.5rem; column-gap: 1.5rem; align-items: start; }
+.post-list .post-thumbnail { grid-column: 2; grid-row: 1 / span 2; margin-top: .3rem; }
+.post-list .has-post-thumbnail > :not(.post-thumbnail) { grid-column: 1; }
+.post-thumbnail img { aspect-ratio: 1; }
+.post-thumbnail img, .wp-block-latest-posts__featured-image img { border-radius: var(--radius-md); }
+.entry-badge, .wp-block-latest-posts__badge { font-weight: 500; color: var(--text-muted); }
+.home-latest li.has-post-thumbnail { grid-template-columns: 3rem minmax(0, 1fr); padding: .55rem 0; }
+.home-latest .wp-block-latest-posts__badge { display: none; }
+
+@media (max-width: 859px) {
+  :root { --margin-col: 0rem; --space-main: 3rem; }
+  .site-branding { flex-wrap: wrap; }
+}

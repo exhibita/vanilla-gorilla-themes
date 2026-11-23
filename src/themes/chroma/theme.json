@@ -1,0 +1,27 @@
+{
+  "title": "Chroma",
+  "type": "salon",
+  "description": "A colour-specialist studio after dark: aubergine black, a magenta-to-tangerine gradient, wide Syne headings.",
+  "minTemplateVersion": 3,
+  "fonts": "https://fonts.googleapis.com/css2?family=Syne:wght@500;700;800&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400&display=swap",
+  "tokens": {
+    "SITE_NAME": "CHROMA",
+    "STYLIST": "Jude Okafor, colour director",
+    "TAGLINE": "Vivid colour specialists",
+    "HERO_HEADLINE": "Colour that does not ask permission",
+    "HERO_LEDE": "Vivids, pastels, colour-melts and corrections, from a studio that does nothing else.",
+    "ABOUT_HEADING": "We only do colour",
+    "ABOUT_TEXT": "No cuts, no extensions, no bridal. Since 2020 the studio has done one thing: bright colour that stays bright, on hair that stays healthy.",
+    "QUOTE": "If it fades in two weeks, it was not done properly.",
+    "FOOTER_BLURB": "A colour-only studio for vivids, pastels and corrections.",
+    "S1_NAME": "Vivids",
+    "S1_TEXT": "Saturated colour from root to tip, in one shade or several.",
+    "S1_FROM": "From $180",
+    "S2_NAME": "Pastels",
+    "S2_TEXT": "Soft washes of colour on pre-lightened hair. Fades clean.",
+    "S2_FROM": "From $160",
+    "S3_NAME": "Corrections",
+    "S3_TEXT": "Banding, box dye and colour that went wrong elsewhere. We fix it.",
+    "S3_FROM": "From $220"
+  }
+}

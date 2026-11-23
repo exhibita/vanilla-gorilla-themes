@@ -1,0 +1,38 @@
+:root {
+  /* Colour */
+  --bg-primary: #f2f1ed;        /* stone */
+  --bg-secondary: #e6e5df;
+  --surface: #f8f7f4;
+  --surface-border: #d5d4cc;
+  --text-main: #2c302e;         /* charcoal */
+  --text-muted: #6d736d;
+  --text-light: #f8f7f4;
+  --color-primary: #55695a;     /* sage */
+  --color-primary-hover: #2c302e;
+  --color-secondary: #8c6d4c;   /* oak */
+  --color-accent: #b08d6a;
+  --lightbox-bg: rgba(242, 241, 237, .97);
+
+  /* Type */
+  --font-display: 'Hanken Grotesk', system-ui, sans-serif;
+  --font-body: 'Hanken Grotesk', system-ui, sans-serif;
+  --font-serif: 'Instrument Serif', Georgia, serif;
+  --font-sans: 'Hanken Grotesk', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', Consolas, monospace;
+  --text-base: 1.0625rem;
+  --leading: 1.75;
+  --measure: 34rem;
+
+  /* Layout */
+  --max-width: 1040px;
+  --gutter: 2rem;
+  --space-main: 6rem;
+  --band-space: clamp(5rem, 11vw, 9rem);
+  --radius-sm: 2px;
+  --radius-md: 2px;
+  --radius-lg: 2px;
+  --transition: all .3s ease;
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: none;
+}

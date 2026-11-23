@@ -1,0 +1,101 @@
+<!--#include file="templates/header.html" -->
+
+<section class="band home-hero">
+    <div class="band-inner">
+        <div class="hero-text">
+            <p class="hero-kicker">{{TAGLINE}}</p>
+            <h1>{{HERO_HEADLINE}}</h1>
+            <p class="hero-lede">{{HERO_LEDE}}</p>
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="./booking/">Book a visit</a>
+                <a class="btn btn-outline" href="./gallery/">See the work</a>
+            </div>
+        </div>
+        <div class="hero-media">
+            <img src="./images/hero.svg" alt="" width="1200" height="1500">
+        </div>
+    </div>
+</section>
+
+<section class="band about" aria-labelledby="about-heading">
+    <div class="band-inner">
+        <div class="about-media">
+            <img src="./images/portrait.svg" alt="" width="900" height="1100" loading="lazy">
+        </div>
+        <div class="about-text">
+            <h2 id="about-heading">{{ABOUT_HEADING}}</h2>
+            <p>{{ABOUT_TEXT}}</p>
+            <blockquote class="about-quote">
+                <p>{{QUOTE}}</p>
+                <footer>{{STYLIST}}</footer>
+            </blockquote>
+        </div>
+    </div>
+</section>
+
+<section class="band services-teaser" aria-labelledby="services-heading">
+    <div class="band-inner">
+        <header class="section-header">
+            <h2 id="services-heading">Services</h2>
+            <p>Every visit starts with a conversation about your hair and how much time you want to spend on it.</p>
+        </header>
+        <div class="service-cards">
+            <article class="service-card">
+                <h3>{{S1_NAME}}</h3>
+                <p>{{S1_TEXT}}</p>
+                <p class="service-from">{{S1_FROM}}</p>
+            </article>
+            <article class="service-card">
+                <h3>{{S2_NAME}}</h3>
+                <p>{{S2_TEXT}}</p>
+                <p class="service-from">{{S2_FROM}}</p>
+            </article>
+            <article class="service-card">
+                <h3>{{S3_NAME}}</h3>
+                <p>{{S3_TEXT}}</p>
+                <p class="service-from">{{S3_FROM}}</p>
+            </article>
+        </div>
+        <a class="read-more" href="./services/">See all services and prices</a>
+    </div>
+</section>
+
+<section class="band work" aria-labelledby="work-heading">
+    <div class="band-inner">
+        <header class="section-header">
+            <h2 id="work-heading">Recent work</h2>
+            <p>Photographed in the chair, in daylight, with no filters.</p>
+        </header>
+        <div class="work-strip">
+            <a href="./gallery/recent-work/"><img src="./images/work-1.svg" alt="Soft balayage on dark blonde hair" width="900" height="1100" loading="lazy"></a>
+            <a href="./gallery/recent-work/"><img src="./images/work-2.svg" alt="Long layers with a face frame" width="900" height="1100" loading="lazy"></a>
+            <a href="./gallery/recent-work/"><img src="./images/work-3.svg" alt="Copper gloss" width="900" height="1100" loading="lazy"></a>
+            <a href="./gallery/recent-work/"><img src="./images/work-4.svg" alt="Blunt bob" width="900" height="1100" loading="lazy"></a>
+        </div>
+        <a class="read-more" href="./gallery/">Open the gallery</a>
+    </div>
+</section>
+
+<section class="band booking-band" aria-labelledby="booking-heading">
+    <div class="band-inner">
+        <h2 id="booking-heading">Choose a time that suits you</h2>
+        <p>Book online in two minutes, or call and we will find a time together.</p>
+        <div class="booking-actions">
+            <a class="btn btn-primary" href="./booking/">Book a visit</a>
+            <a class="booking-phone" href="tel:+15550100199">(555) 010-0199</a>
+        </div>
+    </div>
+</section>
+
+<section class="band journal" aria-labelledby="journal-heading">
+    <div class="band-inner">
+        <header class="section-header">
+            <h2 id="journal-heading">From the journal</h2>
+            <p>{{JOURNAL_INTRO}}</p>
+        </header>
+        <!--#include file="templates/recent-posts.html" -->
+        <a class="read-more" href="./blog/">Read the journal</a>
+    </div>
+</section>
+
+<!--#include file="templates/footer.html" -->

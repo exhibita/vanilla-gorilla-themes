@@ -1,0 +1,22 @@
+name: Check themes
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Assemble the theme folders
+        run: npm run assemble
+      - name: Make sure that themes/ and themes.json are up to date
+        run: git diff --exit-code -- themes themes.json
+      - name: Build each theme with the Vanilla Gorilla template
+        run: npm run check

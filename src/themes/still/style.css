@@ -1,0 +1,112 @@
+body { font-weight: 300; }
+h1, h2, h3 { font-weight: 300; letter-spacing: -.02em; }
+h2 { font-size: clamp(1.8rem, 3.6vw, 2.5rem); }
+h3 { font-size: 1.25rem; font-weight: 400; letter-spacing: 0; }
+strong, .price-row dt, .cart-item-name { font-weight: 500; }
+
+.top-bar { color: var(--text-muted); border-bottom: 1px solid var(--surface-border); font-size: .82rem; }
+.top-bar a { color: var(--text-muted); }
+.top-bar a:hover { color: var(--text-main); }
+.site-header .container { padding-top: 2rem; padding-bottom: 2rem; }
+.site-title { font-size: 1.7rem; font-weight: 300; letter-spacing: .32em; }
+.main-navigation ul { gap: .25rem 2.25rem; }
+.main-navigation a { font-size: .95rem; color: var(--text-muted); }
+.main-navigation a:hover { color: var(--text-main); }
+.btn { padding: .8rem 1.6rem; font-weight: 400; font-size: .95rem; border-radius: 999px; }
+.btn-outline { color: var(--text-main); border-color: var(--surface-border); }
+.btn-outline:hover { background: var(--bg-secondary); border-color: var(--bg-secondary); color: var(--text-main); }
+.cart-toggle { font-size: .95rem; color: var(--text-muted); }
+.cart-count { background: none; color: var(--text-main); border: 1px solid var(--surface-border); font-weight: 400; }
+.read-more { font-weight: 400; font-size: .95rem; color: var(--text-main); padding-bottom: .3rem; border-bottom: 1px solid var(--text-main); }
+.read-more:hover { color: var(--color-primary); border-color: var(--color-primary); }
+
+/* Hero: centred, a small framed image under a serif headline */
+.home-hero .band-inner { grid-template-columns: 1fr; justify-items: center; text-align: center; gap: 4rem; }
+.hero-kicker { font-size: .95rem; }
+.home-hero h1 { font-family: var(--font-serif); font-weight: 400; font-size: clamp(2.6rem, 6.4vw, 5rem); line-height: 1.02; letter-spacing: -.02em; max-width: 14ch; margin-left: auto; margin-right: auto; }
+.hero-lede { margin-left: auto; margin-right: auto; color: var(--text-muted); }
+.hero-actions { justify-content: center; }
+.hero-media { width: min(100%, 44rem); }
+.hero-media img { aspect-ratio: 16 / 10; }
+
+.about .band-inner { grid-template-columns: minmax(0, .55fr) minmax(0, 1fr); gap: clamp(2rem, 9vw, 8rem); }
+.about-text p { color: var(--text-muted); max-width: 30rem; }
+.about-quote p { font-family: var(--font-serif); font-style: italic; font-size: 1.7rem; line-height: 1.25; color: var(--text-main); }
+.services-teaser { background: var(--bg-secondary); }
+.service-cards { gap: calc(var(--gutter) * 2); }
+.service-card { padding-top: 1.25rem; border-top: 1px solid var(--text-main); }
+.service-from { font-weight: 400 !important; color: var(--color-secondary) !important; }
+.work-strip { gap: 2rem; padding: 0 clamp(0rem, 6vw, 5rem); }
+.work-strip img { aspect-ratio: 1; }
+.booking-band h2 { font-family: var(--font-serif); font-size: clamp(2.2rem, 5vw, 3.6rem); letter-spacing: -.01em; }
+.booking-band p { color: var(--text-muted); }
+.booking-phone { font-weight: 400; color: var(--text-main); border-bottom: 1px solid var(--surface-border); }
+
+.page-header { text-align: center; margin: 0 auto 5rem; }
+.page-title { font-family: var(--font-serif); font-weight: 400; font-size: clamp(2.6rem, 6.4vw, 4.6rem); line-height: 1.02; margin-bottom: 1rem; }
+.page-intro { margin: 0 auto; }
+.price-list { max-width: 44rem; margin: 0 auto 4rem; gap: 4rem; }
+.price-group { display: grid; grid-template-columns: 10rem minmax(0, 1fr); column-gap: 2rem; }
+.price-group h2 { font-size: 1.05rem; font-weight: 400; letter-spacing: 0; color: var(--text-muted); padding-top: 1.05rem; }
+.price-rows { border-top: 1px solid var(--text-main); }
+.price-row dd { font-weight: 400; color: var(--color-secondary); }
+.price-notes { max-width: 44rem; margin-left: auto; margin-right: auto; background: none; border-top: 1px solid var(--surface-border); border-radius: 0; padding: 2rem 0 0; color: var(--text-muted); }
+.price-notes h2 { font-weight: 400; color: var(--text-main); }
+.booking-options { gap: 0; border-top: 1px solid var(--text-main); border-bottom: 1px solid var(--surface-border); }
+.booking-card { background: none; border: 0; padding: 2.25rem 2rem 2.25rem 0; }
+.booking-card + .booking-card { padding-left: 2rem; border-left: 1px solid var(--surface-border); }
+.booking-card h2 { font-size: 1.3rem; font-weight: 400; }
+.booking-contact { font-weight: 400; color: var(--text-main); border-bottom: 1px solid var(--text-main); }
+.visit-info h2 { font-size: 1.05rem; font-weight: 400; letter-spacing: 0; color: var(--text-muted); }
+.product-grid { gap: 4rem 3rem; }
+.product-title { font-size: 1.15rem; font-weight: 400; letter-spacing: 0; }
+.product-price { font-weight: 400; color: var(--color-secondary); }
+.cart-header h2 { font-family: var(--font-serif); font-weight: 400; font-size: 1.8rem; }
+
+.post-list { max-width: 44rem; margin: 0 auto; border-top: 1px solid var(--text-main); }
+.post-list article.post { padding: 2rem 0; border-bottom: 1px solid var(--surface-border); }
+.post-list .entry-title { font-family: var(--font-serif); font-weight: 400; font-size: 1.9rem; letter-spacing: -.01em; margin: .3rem 0 .5rem; }
+.post-list .entry-title a { color: var(--text-main); }
+.post-list .entry-title a:hover, .nav-links a:hover { color: var(--color-primary); }
+.post-single { max-width: var(--measure); margin: 0 auto; }
+.post-single .entry-header { text-align: center; margin-bottom: 3.5rem; }
+.post-single .entry-title { font-family: var(--font-serif); font-weight: 400; font-size: clamp(2.4rem, 6vw, 4rem); line-height: 1.04; margin-top: 1rem; }
+.entry-content h2 { font-size: 1.4rem; font-weight: 400; letter-spacing: -.01em; }
+.entry-content a { color: var(--text-main); }
+.entry-content blockquote { font-family: var(--font-serif); font-style: italic; font-size: 1.8rem; line-height: 1.25; text-align: center; padding: 1rem 0; }
+.entry-content img { aspect-ratio: 16 / 10; width: 100%; object-fit: cover; }
+.post-navigation, .navigation.paging-navigation { padding-top: 2rem; border-top: 1px solid var(--surface-border); }
+.navigation.paging-navigation { max-width: 44rem; margin-left: auto; margin-right: auto; border: 0; }
+.nav-links a { font-family: var(--font-body); color: var(--text-main); }
+.gallery-grid { gap: 3rem 2rem; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }
+.gallery-item { border: 0; background: none; }
+.gallery-caption { padding: .8rem 0 0; color: var(--text-muted); }
+.lightbox-desc, .lightbox-close, .lightbox-nav { color: var(--text-main); }
+.lightbox-close:hover, .lightbox-nav:hover { color: var(--color-primary); }
+.link-button { border-radius: 999px; font-weight: 400; }
+.links-page .links-image { border-radius: 50%; }
+.links-page h1 { font-weight: 300; letter-spacing: .32em; }
+
+.site-footer { border-top: 1px solid var(--surface-border); padding: 5rem 0 2.5rem; }
+.footer-title { font-size: 1.5rem; font-weight: 300; letter-spacing: .32em; }
+.footer-heading { font-weight: 400; color: var(--text-muted); }
+.site-footer a { color: var(--text-main); }
+.site-footer a:hover { color: var(--color-primary); }
+.footer-info { padding-top: 2rem; margin-top: 2rem; border-top: 1px solid var(--surface-border); }
+
+/* Post image and badge */
+.journal .wp-block-latest-posts__post-title { font-family: var(--font-serif); font-size: 1.6rem; line-height: 1.15; }
+.journal .wp-block-latest-posts__post-title:hover { color: var(--color-primary); }
+.entry-badge, .wp-block-latest-posts__badge { font-weight: 400; color: var(--color-secondary); }
+.post-list article.has-post-thumbnail { display: grid; grid-template-columns: minmax(0, 1fr) 8rem; column-gap: 2rem; align-items: start; }
+.post-list .post-thumbnail { grid-column: 2; grid-row: 1 / span 2; }
+.post-list .post-thumbnail img { aspect-ratio: 1; }
+.post-list .has-post-thumbnail > :not(.post-thumbnail) { grid-column: 1; }
+
+@media (max-width: 900px) {
+  .about .band-inner, .price-group { grid-template-columns: 1fr; }
+  .about-media { max-width: 16rem; }
+  .booking-card, .booking-card + .booking-card { padding: 2rem 0; border-left: 0; border-top: 1px solid var(--surface-border); }
+  .booking-card:first-child { border-top: 0; }
+  .work-strip { padding: 0; gap: 1rem; }
+}

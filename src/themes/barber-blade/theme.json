@@ -1,0 +1,30 @@
+{
+  "title": "Barber & Blade",
+  "type": "salon",
+  "description": "Classic barbershop: bottle green, cream and brass, slab headings and a barber-pole stripe.",
+  "minTemplateVersion": 3,
+  "fonts": "https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Oswald:wght@400;500;600&family=Bitter:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400&display=swap",
+  "tokens": {
+    "SITE_NAME": "Barber & Blade",
+    "STYLIST": "Tom Reyes, head barber",
+    "TAGLINE": "Cuts and hot-towel shaves since 2011",
+    "HERO_HEADLINE": "A proper haircut, done at a proper pace",
+    "HERO_LEDE": "Scissor cuts, fades and straight-razor shaves from three barbers who do not watch the clock.",
+    "ABOUT_HEADING": "Three chairs, no shortcuts",
+    "ABOUT_TEXT": "We opened on Example Street in 2011 with second-hand chairs and one rule: nobody leaves until the neckline is right. The chairs are still here. So is the rule.",
+    "QUOTE": "You can tell a good fade from across the street.",
+    "FOOTER_BLURB": "A neighbourhood barbershop. Walk-ins welcome before noon.",
+    "HOURS_SHORT": "Monday to Saturday, 8 am to 7 pm",
+    "S1_NAME": "Haircuts",
+    "S1_TEXT": "Scissor cuts, clipper cuts and skin fades, finished with a razor neckline.",
+    "S1_FROM": "From $25",
+    "S2_NAME": "Shaves",
+    "S2_TEXT": "A hot towel, a fresh blade and a cold towel to finish. Allow forty minutes.",
+    "S2_FROM": "From $22",
+    "S3_NAME": "Beards",
+    "S3_TEXT": "Shaped, lined and oiled, alone or with a cut.",
+    "S3_FROM": "From $22",
+    "JOURNAL_INTRO": "Advice from the chair: upkeep, what to ask for, and how to prepare for a visit.",
+    "SHOP_INTRO": "The products on our shelf, for your bathroom. Collect your order at the shop."
+  }
+}

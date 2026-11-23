@@ -1,0 +1,38 @@
+:root {
+  /* Colour */
+  --bg-primary: #f1f0ea;        /* newsprint */
+  --bg-secondary: #e6e4dc;      /* shaded panel */
+  --surface: #f8f7f2;
+  --surface-border: #16181d;    /* rules are ink, not grey */
+  --text-main: #16181d;         /* ink */
+  --text-muted: #55565a;
+  --text-light: #f8f7f2;
+  --color-primary: #16181d;
+  --color-primary-hover: #b3261e;
+  --color-secondary: #b3261e;   /* press red */
+  --color-accent: #b3261e;
+  --rule-light: #b9b7ae;
+  --lightbox-bg: rgba(22, 24, 29, .96);
+
+  /* Type */
+  --font-display: 'Newsreader', Georgia, serif;
+  --font-body: 'Newsreader', Georgia, serif;
+  --font-serif: 'Newsreader', Georgia, serif;
+  --font-sans: 'Libre Franklin', Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', Consolas, monospace;
+  --text-base: 1.1875rem;
+  --leading: 1.6;
+  --measure: 39rem;
+
+  /* Layout */
+  --max-width: 1180px;
+  --gutter: 2rem;
+  --space-main: 2.5rem;
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --transition: all .15s ease;
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: none;
+}
