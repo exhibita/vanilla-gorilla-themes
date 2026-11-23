@@ -1,6 +1,6 @@
 # Vanilla Gorilla themes
 
-Themes for [Vanilla Gorilla](https://github.com/exhibita/vanilla-gorilla). Each folder in `themes/` is a copy of the files that go in `src/` of a Vanilla Gorilla site.
+Themes for [Vanilla Gorilla](https://github.com/exhibita/vanilla-gorilla) static site generator. Each folder in `themes/` is a copy of the files that go in `src/` of a Vanilla Gorilla site.
 
 A theme changes only the presentation: templates, skeletons, the stylesheet, the home page and demo content. A theme never changes `build.js`.
 
