@@ -142,3 +142,7 @@ The scripts have no dependencies. They need Node.js 20.18.1 or newer and git.
 - `minTemplateVersion`: the lowest `vanillaGorilla.templateVersion` that the theme builds with.
 
 A change to the shape of this file that a tool cannot read increases `manifestVersion`.
+
+## License
+
+AGPL-3.0-or-later, the same license as the Vanilla Gorilla template. See `LICENSE`. A site that uses a theme keeps this license for the theme files.

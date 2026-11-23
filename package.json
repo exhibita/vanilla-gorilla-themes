@@ -2,6 +2,7 @@
   "name": "vanilla-gorilla-themes",
   "version": "0.1.0",
   "private": true,
+  "license": "AGPL-3.0-or-later",
   "description": "Themes for the Vanilla Gorilla static site generator.",
   "type": "module",
   "engines": {
